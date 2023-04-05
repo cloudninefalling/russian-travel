@@ -9,3 +9,10 @@
     margin: 0;
     width: 720px;
 }
+
+@media screen and (max-width: 750px) {
+    .lead__title {
+        font-size: calc(40px + 56 * (100vw - 320px) / 430);
+        width: calc(288px + 432 * (100vw - 320px) / 430);
+    }
+}

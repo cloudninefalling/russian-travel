@@ -9,3 +9,10 @@
     margin: 32px 0 6.5%;
     width: 640px;
 }
+
+@media screen and (max-width: 750px) {
+    .lead__subtitle {
+        font-size: calc(16px + 14 * (100vw - 320px) / 430);
+        width: calc(288px + 432 * (100vw - 320px) / 430);
+    }
+}
