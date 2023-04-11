@@ -1,12 +1,13 @@
 .lead {
-    max-width: 984px;
-    display: grid;
-    justify-items: center;
+    width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-template-columns: minmax(320px, 984px);
 }
 
 @media screen and (max-width: 1280px) {
     .lead {
-        max-width: calc(928px + 56 * (100vw - 1024px) / (1280 - 1024));
+        width: calc(928px + 56 * (100vw - 1024px) / (1280 - 1024));
     }
 }

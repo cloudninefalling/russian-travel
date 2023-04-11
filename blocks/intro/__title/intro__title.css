@@ -1,5 +1,4 @@
 .intro__title {
-    color: #fff;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -7,4 +6,8 @@
     margin: 12px 0 0;
 }
 
-/* adapt to 320 */
+@media screen and (max-width: 700px) {
+    .intro__title {
+        max-width: calc(288px + 412 * (100vw - 320px) / (700 - 320));
+    }
+}

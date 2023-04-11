@@ -5,6 +5,7 @@
     background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
     background-size: cover;
     margin-top: 64px;
+    margin-bottom: 8px;
 }
 
 @media screen and (max-width: 1280px) {
