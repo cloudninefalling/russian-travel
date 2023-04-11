@@ -1,5 +1,4 @@
 .header__lang-link {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -12,11 +11,15 @@
     text-decoration: underline;
 }
 
-/* underline en through onclick */
-
 @media screen and (max-width: 750px) {
     .header__lang-link {
         font-size: calc(18px + 6 * (100vw - 320px) / 430);
         line-height: 1.11;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
     }
 }
