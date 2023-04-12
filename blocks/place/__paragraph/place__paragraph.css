@@ -5,5 +5,10 @@
     line-height: 1.63;
     max-width: 484px;
     grid-area: paragraph;
+    height: fit-content;
     margin: 0;
+}
+
+.place__paragraph:nth-of-type(2) {
+    grid-area: second-paragraph;
 }

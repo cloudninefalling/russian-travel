@@ -1,0 +1,12 @@
+.cover__link {
+    text-decoration: none;
+    color: #fff;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 92px 0 0;
+    transition: opacity 0.3s ease;
+}
+
+.cover__link:hover>.cover__overlay {
+    opacity: 0.8;
+}

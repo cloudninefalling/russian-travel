@@ -1,15 +1,8 @@
 .places {
     list-style: none;
-    width: 984px;
     padding: 0;
     margin: 92px 0 0;
     display: flex;
     flex-direction: column;
     gap: 80px;
-}
-
-@media screen and (max-width: 1280px) {
-    .places {
-        width: calc(928px + 56 * (100vw - 1024px) / (1280 - 1024));
-    }
 }

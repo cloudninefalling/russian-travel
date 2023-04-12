@@ -1,0 +1,14 @@
+.cover__subtitle {
+    grid-row: 2;
+    grid-column: 1;
+    z-index: 1;
+    align-self: flex-end;
+    justify-self: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    width: 360px;
+    margin: 0;
+}

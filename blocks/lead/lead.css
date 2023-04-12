@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-template-columns: minmax(320px, 984px);
 }
 
 @media screen and (max-width: 1280px) {
