@@ -7,7 +7,7 @@
     font-size: 72px;
     line-height: 1.06;
     text-align: center;
-    width: 560px;
+    max-width: 560px;
     z-index: 1;
     margin: 0;
 }

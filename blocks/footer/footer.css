@@ -4,3 +4,19 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-top: calc(88px + 4 * (100vw - 768px) / (1024 - 768));
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .footer {
+        margin-top: calc(66px + 22 * (100vw - 320px) / (768 - 320));
+        margin-left: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+    }
+}

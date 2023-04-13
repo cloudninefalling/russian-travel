@@ -13,3 +13,9 @@
         margin-top: calc(66px + 23 * (100vw - 320px) / (768 - 320));
     }
 }
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 66px;
+    }
+}
