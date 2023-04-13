@@ -2,9 +2,14 @@
     text-decoration: none;
     color: #fff;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 92px 0 0;
-    transition: opacity 0.3s ease;
+    grid-template-rows: 1fr max-content 32px max-content 1fr;
+    grid-template-areas:
+        "image"
+        "title"
+        "."
+        "subtitle"
+        ".";
+    margin: 0;
 }
 
 .cover__link:hover>.cover__overlay {

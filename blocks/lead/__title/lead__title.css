@@ -8,16 +8,19 @@
     max-width: 720px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     .lead__title {
-        font-size: calc(40px + 56 * (100vw - 320px) / 430);
-        max-width: calc(288px + 432 * (100vw - 320px) / 430);
+        font-size: calc(40px + 56 * (100vw - 320px) / (768 - 320));
+        max-width: calc(288px + 432 * (100vw - 320px) / (768 - 320));
+        line-height: calc(44px + 56 * (100vw - 320px) / (768 - 320));
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__title {
         font-size: 40px;
+        line-height: 1.1;
         max-width: 288px;
+
     }
 }

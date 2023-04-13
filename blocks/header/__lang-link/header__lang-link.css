@@ -11,9 +11,9 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     .header__lang-link {
-        font-size: calc(18px + 6 * (100vw - 320px) / 430);
+        font-size: calc(18px + 6 * (100vw - 320px) / (768 - 320));
         line-height: 1.11;
     }
 }

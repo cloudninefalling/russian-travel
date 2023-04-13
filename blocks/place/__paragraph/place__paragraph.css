@@ -5,10 +5,33 @@
     line-height: 1.63;
     max-width: 484px;
     grid-area: paragraph;
-    height: fit-content;
     margin: 0;
 }
 
 .place__paragraph:nth-of-type(2) {
     grid-area: second-paragraph;
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        font-size: calc(16px + 2 * (100vw - 768px) / (1024 - 768));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+
+    .place__paragraph:nth-of-type(2) {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .place__paragraph {
+        max-width: 90%;
+        justify-self: center;
+    }
 }

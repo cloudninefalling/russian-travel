@@ -3,7 +3,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.12px;
+    line-height: 1.12;
     text-decoration: none;
     color: #fff;
+    transition: opacity 0.3s ease;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }

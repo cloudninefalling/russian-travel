@@ -1,1 +1,15 @@
-.cover {}
+.cover {
+    margin-top: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin-top: calc(89px + 3 * (100vw - 768px) / (1024 - 768));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: calc(66px + 23 * (100vw - 320px) / (768 - 320));
+    }
+}

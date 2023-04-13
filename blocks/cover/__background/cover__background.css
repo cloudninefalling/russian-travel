@@ -1,7 +1,19 @@
 .cover__background {
     width: 1184px;
     object-fit: cover;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 5;
     grid-column: 1;
     z-index: -1;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__background {
+        width: calc(1024px + 160 * (100vw - 1024px) / (1280 - 1024));
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        width: 100%;
+    }
 }

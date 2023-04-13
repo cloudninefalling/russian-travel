@@ -1,8 +1,7 @@
 .cover__subtitle {
-    grid-row: 2;
-    grid-column: 1;
+    grid-area: subtitle;
     z-index: 1;
-    align-self: flex-end;
+    align-self: center;
     justify-self: center;
     font-style: normal;
     font-weight: 400;
