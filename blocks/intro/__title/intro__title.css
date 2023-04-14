@@ -1,15 +1,15 @@
 .intro__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 1.07;
-    margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .intro__title {
-        max-width: calc(288px + 412 * (100vw - 320px) / (768 - 320));
-        line-height: 1.09;
-        font-size: calc(32px + 22 * (100vw - 320px) / (768 - 320));
-    }
+  .intro__title {
+    max-width: calc(288px + 412 * (100vw - 320px) / (768 - 320));
+    line-height: 1.09;
+    font-size: calc(32px + 22 * (100vw - 320px) / (768 - 320));
+  }
 }

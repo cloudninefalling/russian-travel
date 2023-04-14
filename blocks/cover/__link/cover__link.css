@@ -1,17 +1,17 @@
 .cover__link {
-    text-decoration: none;
-    color: #fff;
-    display: grid;
-    grid-template-rows: 1fr max-content 32px max-content 1fr;
-    grid-template-areas:
-        "image"
-        "title"
-        "."
-        "subtitle"
-        ".";
-    margin: 0;
+  text-decoration: none;
+  color: #fff;
+  display: grid;
+  grid-template-rows: 1fr max-content 32px max-content 1fr;
+  grid-template-areas:
+    "image"
+    "title"
+    "."
+    "subtitle"
+    ".";
+  margin: 0;
 }
 
 .cover__link:hover>.cover__overlay {
-    opacity: 0.8;
+  opacity: 0.8;
 }

@@ -1,24 +1,24 @@
 .photo-grid {
-    margin: 92px 48px 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    gap: 16px 16px;
-    justify-items: center;
+  margin: 92px 48px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px 16px;
+  justify-items: center;
 }
 
 @media screen and (max-width: 1024px) {
-    .photo-grid {
-        margin-top: calc(88px + 4 * (100vw - 768px) / (1024 - 768));
-        margin-left: calc(24px + 24 * (100vw - 768px) / (1024 - 768));
-        margin-right: calc(24px + 24 * (100vw - 768px) / (1024 - 768));
-    }
+  .photo-grid {
+    margin-top: calc(88px + 4 * (100vw - 768px) / (1024 - 768));
+    margin-left: calc(24px + 24 * (100vw - 768px) / (1024 - 768));
+    margin-right: calc(24px + 24 * (100vw - 768px) / (1024 - 768));
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .photo-grid {
-        margin-top: calc(64px + 24 * (100vw - 320px) / (768 - 320));
-        margin-left: calc(16px + 8 * (100vw - 320px) / (768 - 320));
-        margin-right: calc(16px + 8 * (100vw - 320px) / (768 - 320));
-        row-gap: calc(12px + 4 * (100vw - 320px) / (768 - 320));
-    }
+  .photo-grid {
+    margin-top: calc(64px + 24 * (100vw - 320px) / (768 - 320));
+    margin-left: calc(16px + 8 * (100vw - 320px) / (768 - 320));
+    margin-right: calc(16px + 8 * (100vw - 320px) / (768 - 320));
+    row-gap: calc(12px + 4 * (100vw - 320px) / (768 - 320));
+  }
 }
