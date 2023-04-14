@@ -15,3 +15,9 @@
 .cover__link:hover>.cover__overlay {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 750px) {
+  .cover__link {
+    grid-template-rows: 1fr max-content 16px max-content 1fr;
+  }
+}
