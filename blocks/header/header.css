@@ -7,6 +7,7 @@
   align-items: end;
   box-sizing: border-box;
   width: 100%;
+  max-width: 1280px;
 }
 
 @media screen and (max-width: 1280px) {
