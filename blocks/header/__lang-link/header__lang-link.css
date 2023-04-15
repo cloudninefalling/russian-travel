@@ -5,10 +5,11 @@
   line-height: 1.17;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.3s ease;
 }
 
-.header__lang-link:first-of-type {
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {

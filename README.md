@@ -1,4 +1,4 @@
-# Проект: Путешествие по России https://github.com/cloudninefalling/russian-travel
+# Проект: Путешествие по России https://cloudninefalling.github.io/russian-travel/index.html
 
 ### Обзор
 * Проект о путешествии по России.
