@@ -7,16 +7,16 @@
 }
 
 @font-face {
-  src: url(./vendor/fonts/Inter-Bold.woff2) format('woff2'),
-    url(./vendor/fonts/Inter-Bold.woff) format('woff');
+  src: url(./Inter-Bold.woff2) format('woff2'),
+    url(./Inter-Bold.woff) format('woff');
   font-family: 'Inter';
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  src: url(./vendor/fonts/Inter-Black.woff2) format('woff2'),
-    url(./vendor/fonts/Inter-Black.woff) format('woff');
+  src: url(./Inter-Black.woff2) format('woff2'),
+    url(./Inter-Black.woff) format('woff');
   font-family: 'Inter';
   font-weight: 900;
   font-style: normal;
